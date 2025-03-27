@@ -14,24 +14,7 @@ struct EnumQuestion: Identifiable {
     let options: [String]
     let correctAnswer: String
 }
-struct ExplosionEffect: View {
-    @State private var explode = false
-    
-    Text("💥")
-        .font(.system(size: 50))
-        .scaleEffect(explode ? 1.5 : 0.8)
-        .opacity(explode ? 0.6 : 1)
-        .rotationEffect(.degrees(explode ? 15 : -15))
-        .animation(
-            Animation.easeInOut(duration: 0.6)
-                .repeatForever(autoreverses: true),
-            value: explode
-        )
-        .onAppear {
-            explode = true
-        }
-}
-}
+
 
 struct EnumEliminatorView: View {
     @EnvironmentObject var streakManager: StreakManager
@@ -93,7 +76,7 @@ enum NetworkResponse {
     @State private var animateCorrect = false
     @State private var animateWrong = false
 
-    var body: some View{
+    var body: some View {
         ZStack {
             Color.black.ignoresSafeArea()
 
