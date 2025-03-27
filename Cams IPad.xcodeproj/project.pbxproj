@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		30A297C92D958E2C0023D6DD /* UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A297C82D958E2C0023D6DD /* UserProfileView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		306FCAE62D919B4D00A6FEC6 /* Cams IPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cams IPad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30A297C82D958E2C0023D6DD /* UserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +37,7 @@
 		306FCADD2D919B4D00A6FEC6 = {
 			isa = PBXGroup;
 			children = (
+				30A297C82D958E2C0023D6DD /* UserProfileView.swift */,
 				306FCAE82D919B4D00A6FEC6 /* Cams IPad */,
 				306FCAE72D919B4D00A6FEC6 /* Products */,
 			);
@@ -119,6 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30A297C92D958E2C0023D6DD /* UserProfileView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
